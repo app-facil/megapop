@@ -1,7 +1,7 @@
 <?
 # alterar a variavel abaixo colocando o seu email
 
-$destinatario = "rgghost@hotmail.com";
+$destinatario = "appfacil@outlook.com";
 
 $nome = $_REQUEST['nome'];
 $email = $_REQUEST['email'];
@@ -11,7 +11,7 @@ $assunto = $_REQUEST['assunto'];
  // monta o e-mail na variavel $body
 
 $body = "===================================" . "\n";
-$body = $body . "FALE CONOSCO - RGGHOST" . "\n";
+$body = $body . "FALE CONOSCO - APPFACIL" . "\n";
 $body = $body . "===================================" . "\n\n";
 $body = $body . "Nome: " . $nome . "\n";
 $body = $body . "Email: " . $email . "\n";
